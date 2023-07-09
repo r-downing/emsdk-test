@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/__w/emsdk-test/emsdk-test/main.c" "CMakeFiles/main.js.dir/main.c.o" "gcc" "CMakeFiles/main.js.dir/main.c.o.d"
-  "/__w/emsdk-test/emsdk-test/x.c" "CMakeFiles/main.js.dir/x.c.o" "gcc" "CMakeFiles/main.js.dir/x.c.o.d"
+  "/__w/emsdk-test/emsdk-test/main.c" "CMakeFiles/index.html.dir/main.c.o" "gcc" "CMakeFiles/index.html.dir/main.c.o.d"
+  "/__w/emsdk-test/emsdk-test/x.c" "CMakeFiles/index.html.dir/x.c.o" "gcc" "CMakeFiles/index.html.dir/x.c.o.d"
   )
 
 # Targets to which this target links.

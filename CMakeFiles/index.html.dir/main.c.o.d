@@ -1,4 +1,4 @@
-CMakeFiles/main.js.dir/main.c.o: /__w/emsdk-test/emsdk-test/main.c \
+CMakeFiles/index.html.dir/main.c.o: /__w/emsdk-test/emsdk-test/main.c \
   /emsdk/upstream/emscripten/cache/sysroot/include/stdio.h \
   /emsdk/upstream/emscripten/cache/sysroot/include/wasi/api.h \
   /emsdk/upstream/lib/clang/17/include/stddef.h \

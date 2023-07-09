@@ -1,0 +1,1 @@
+/emsdk/upstream/emscripten/emcc  -Wall -Wextra -DTEST_DEFINE CMakeFiles/index.html.dir/main.c.o CMakeFiles/index.html.dir/x.c.o -o index.html 

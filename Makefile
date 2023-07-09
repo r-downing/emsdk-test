@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named main.js
+# Target rules for targets named index.html
 
 # Build rule for target.
-main.js: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main.js
-.PHONY : main.js
+index.html: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 index.html
+.PHONY : index.html
 
 # fast build rule for target.
-main.js/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.js.dir/build.make CMakeFiles/main.js.dir/build
-.PHONY : main.js/fast
+index.html/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/index.html.dir/build.make CMakeFiles/index.html.dir/build
+.PHONY : index.html/fast
 
 main.o: main.c.o
 .PHONY : main.o
 
 # target to build an object file
 main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.js.dir/build.make CMakeFiles/main.js.dir/main.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/index.html.dir/build.make CMakeFiles/index.html.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -142,7 +142,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.js.dir/build.make CMakeFiles/main.js.dir/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/index.html.dir/build.make CMakeFiles/index.html.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -150,7 +150,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.js.dir/build.make CMakeFiles/main.js.dir/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/index.html.dir/build.make CMakeFiles/index.html.dir/main.c.s
 .PHONY : main.c.s
 
 x.o: x.c.o
@@ -158,7 +158,7 @@ x.o: x.c.o
 
 # target to build an object file
 x.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.js.dir/build.make CMakeFiles/main.js.dir/x.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/index.html.dir/build.make CMakeFiles/index.html.dir/x.c.o
 .PHONY : x.c.o
 
 x.i: x.c.i
@@ -166,7 +166,7 @@ x.i: x.c.i
 
 # target to preprocess a source file
 x.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.js.dir/build.make CMakeFiles/main.js.dir/x.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/index.html.dir/build.make CMakeFiles/index.html.dir/x.c.i
 .PHONY : x.c.i
 
 x.s: x.c.s
@@ -174,7 +174,7 @@ x.s: x.c.s
 
 # target to generate assembly for a file
 x.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.js.dir/build.make CMakeFiles/main.js.dir/x.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/index.html.dir/build.make CMakeFiles/index.html.dir/x.c.s
 .PHONY : x.c.s
 
 # Help Target
@@ -185,7 +185,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... main.js"
+	@echo "... index.html"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
