@@ -1,3 +1,0 @@
-/__w/emsdk-test/emsdk-test/build/CMakeFiles/index.html.dir
-/__w/emsdk-test/emsdk-test/build/CMakeFiles/edit_cache.dir
-/__w/emsdk-test/emsdk-test/build/CMakeFiles/rebuild_cache.dir
