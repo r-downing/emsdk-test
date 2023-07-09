@@ -1,0 +1,1 @@
+/emsdk/upstream/emscripten/emcc  -Wall -Wextra -DTEST_DEFINE CMakeFiles/main.js.dir/main.c.o CMakeFiles/main.js.dir/x.c.o -o main.js 
