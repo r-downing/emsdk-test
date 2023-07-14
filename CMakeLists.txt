@@ -8,8 +8,7 @@ else()
     message( FATAL_ERROR "Must run with emcmake" )
 endif()
 
-add_compile_options(-Wall -Wextra -DTEST_DEFINE)
-add_link_options(-lm -s USE_SDL=2)
+add_compile_options(-Wall -Wextra -DTEST_DEFINE -s USE_SDL=2)
 
 add_library(xlib STATIC src/x.c)
 
