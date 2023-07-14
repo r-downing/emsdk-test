@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <emscripten.h>
+#include <SDL2/SDL.h>
+
 
 extern int x;
 
