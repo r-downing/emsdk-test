@@ -9,6 +9,7 @@ else()
 endif()
 
 add_compile_options(-Wall -Wextra -DTEST_DEFINE)
+add_link_options(-lm -s USE_SDL=2)
 
 add_library(xlib STATIC src/x.c)
 
